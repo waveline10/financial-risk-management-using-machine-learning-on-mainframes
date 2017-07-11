@@ -18,18 +18,18 @@ As shown in the following figure, the z/OS Platform for Apache Spark cluster run
 
 In summary, Machine Learning for z/OS provides the following functionality to help you maximize the value from your enterprise data:
 
-	* Ingestion of data from different sources, including DB2®, IMS™, VSAM, and System Management Facilities (SMF).
-	* Transformation and cleansing of data to be used as the algorithm input
-	* Training of a model for the selected algorithm with the prepared data
-	* Evaluation, deployment, and management of the trained model
-	* Integration of the MLeap engine for fast online scoring
-	* Import and deployment of Predictive Model Markup Language (PMML) models
-	* A RESTful API for an application to embed the predictions that are made by the model
-	* Monitoring of the status, accuracy, and resource consumption of the model
-	* Automated feedback loop to feed new data for re-training of the model if the accuracy deteriorates
-	* An integrated notebook interface for data scientists to use Machine Learning APIs for interactive processing
-	* A web administration dashboard for managing Jupyter kernels and Kubernetes services, nodes, and pods
-	* Security control through integration of authentication and authorization on z Systems
+* Ingestion of data from different sources, including DB2®, IMS™, VSAM, and System Management Facilities (SMF).
+* Transformation and cleansing of data to be used as the algorithm input
+* Training of a model for the selected algorithm with the prepared data
+* Evaluation, deployment, and management of the trained model
+* Integration of the MLeap engine for fast online scoring
+* Import and deployment of Predictive Model Markup Language (PMML) models
+* A RESTful API for an application to embed the predictions that are made by the model
+* Monitoring of the status, accuracy, and resource consumption of the model
+* Automated feedback loop to feed new data for re-training of the model if the accuracy deteriorates
+* An integrated notebook interface for data scientists to use Machine Learning APIs for interactive processing
+* A web administration dashboard for managing Jupyter kernels and Kubernetes services, nodes, and pods
+* Security control through integration of authentication and authorization on z Systems
 
 # Financial risk management API
 
