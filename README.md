@@ -48,4 +48,4 @@ This API is available in the [IBM Developer Portal].
 
 [this video]:https://www.youtube.com/watch?v=Xs-4sRZ133I
 
-[IBM Developer Portal]: https://www.ibm.com/account/us-en/signup/register.html
+[IBM Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
