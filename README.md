@@ -18,7 +18,7 @@ As shown in the following figure, the z/OS Platform for Apache Spark cluster run
 
 In summary, Machine Learning for z/OS provides the following functionality to help you maximize the value from your enterprise data:
 
-* Ingestion of data from different sources, including DB2®, IMS™, VSAM, and System Management Facilities (SMF).
+* Ingestion of data from different sources, including DB2, IMS, VSAM, and System Management Facilities (SMF).
 * Transformation and cleansing of data to be used as the algorithm input
 * Training of a model for the selected algorithm with the prepared data
 * Evaluation, deployment, and management of the trained model
@@ -31,9 +31,12 @@ In summary, Machine Learning for z/OS provides the following functionality to he
 * A web administration dashboard for managing Jupyter kernels and Kubernetes services, nodes, and pods
 * Security control through integration of authentication and authorization on z Systems
 
-# Financial risk management API
+# Financial risk management API in MPLbank
 
-dd
+The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS.
+
+This API is available in the [IBM Developer Portal]. 
+
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
@@ -44,3 +47,5 @@ dd
 [IBM Machine Learning for z/OS Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9PF4
 
 [this video]:https://www.youtube.com/watch?v=Xs-4sRZ133I
+
+[IBM Developer Portal]: https://www.ibm.com/account/us-en/signup/register.html
