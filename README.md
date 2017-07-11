@@ -10,6 +10,8 @@ To have more details details about MPLbank, please go to [Banking Digitalization
 
 [IBM Machine Learning for z/OS] is an end-to-end enterprise machine learning platform that helps you create, train, and deploy machine learning models to extract value from your mission critical data on IBM z Systems, while keeping the data where it resides. Please watch [this video] to understand how IBM Machine Learning for z/OS helps Industries to resolve data value.
 
+![alt text](images/mlz_workflow.png "workflow")
+
 Machine Learning for z/OS integrates some powerful IBM machine learning capabilities, including IBM z/OS Platform for Apache Spark. It simplifies and automates the machine learning workflow and enables collaboration on machine learning projects across disciplines, including data scientists, data engineers, business analysts, and application developers. By keeping the data on your z Systems, Machine Learning for z/OS helps significantly reduce the cost, security risk, and time to create, evaluate, and deploy machine learning models.
 
 As shown in the following figure, the z/OS Platform for Apache Spark cluster runs on z/OS and continuously ingests data into the Machine Learning for z/OS pipeline in real time. The application cluster runs on Linux or Linux on z Systems (Linux on z) and provides a web user interface for model training and management. Data scientists can use the user interface to select data sources for model building, training, and deployment. Application developers can see the list of saved models for deployment. Deployed models are used to make predictions. The models can be optimized as the data is pushed back into the machine learning workflow in a feedback loop.
@@ -31,11 +33,19 @@ In summary, Machine Learning for z/OS provides the following functionality to he
 * A web administration dashboard for managing Jupyter kernels and Kubernetes services, nodes, and pods
 * Security control through integration of authentication and authorization on z Systems
 
+for more information, go to the [IBM Machine Learning for z/OS Knowledge Center].
+
 # Financial risk management API in MPLbank
 
-The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS.
+The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund according to banking customer criteria such as his diploma, his age, his number of credit card, his income  and his number of car loans. From a software Architecture point of view, the previous schema has been implemented in MPLbank on Mainframe.
 
-This API is available in the [IBM Developer Portal]. 
+![alt text](images/architecture_mlz_mplbank.png "Architecture")
+
+Then, This model was trained using data and finally deployed as a scoring service. On top of this service, an API was created and published to the API developer Portal.
+
+This API is available in the banking product from the [IBM Developer Portal] under the API path **/customers/loan/**
+
+Following the documentation, this API
 
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
