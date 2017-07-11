@@ -35,16 +35,20 @@ for more information, go to the [IBM Machine Learning for z/OS Knowledge Center]
 
 # Financial risk management API in MPLbank
 
-The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund according to banking customer criteria such as his diploma, his age, his number of credit card, his income  and his number of car loans. From a software Architecture point of view, the previous schema has been implemented in MPLbank on Mainframe.
+The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund according to banking customer data. From a software Architecture point of view, the previous schema has been implemented in MPLbank on Mainframe.
 
 ![alt text](images/architecture_mlz_mplbank.png "Architecture")
 
-Following the next schema, the Predictive model was build from data. then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
+Following the next schema, the Predictive model was build from data using IBM Machine learning tools and banking customer data (his diploma, his age, his number of credit card, his income  and his number of car loans) was selected to predict the output score. Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
 
 ![alt text](images/mlz_workflow.png "workflow")
 
 Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. This API is available in the banking product from the [IBM Developer Portal] under the API path **/customers/loan/** .
 
+As input parameters, the API expects : 
+* 
+
+As output value, 
 
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
