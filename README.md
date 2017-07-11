@@ -45,6 +45,9 @@ Following the next schema, a Predictive model was build from data using IBM Mach
 
 Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. This API is available in the banking product from the [IBM Developer Portal] under the API path **/customers/loan/** .
 
+Feel free to use this API in order to make the best innovative application for this developer Journey. Keep in mind that this API is included in a set of banking APIs. The general banking APIs documentation is available in the [Banking Digitalization using Hybrid Cloud with z Systems].
+
+
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
 [IBM Client Center Montpellier]: https://www.ibm.com/ibm/clientcenter/montpellier/
