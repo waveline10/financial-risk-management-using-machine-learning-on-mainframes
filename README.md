@@ -39,7 +39,7 @@ The IBM MPLbank team made a Financial risk management API illustrating an online
 
 ![alt text](images/architecture_mlz_mplbank.png "Architecture")
 
-Following the next schema, the Predictive model was build from data using IBM Machine learning tools and banking customer data (his diploma, his age, his number of credit card, his income  and his number of car loans) was selected to predict an score (probability) and an action (next customer's behaviour). Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
+Following the next schema, a Predictive model was build from data using IBM Machine learning tools. Banking customer data was selected (his diploma, his age, his number of credit card, his income  and his number of car loans) to predict a score (probability for capacity of loan refunding) and an action (next customer's behaviour). Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
 
 ![alt text](images/mlz_workflow.png "workflow")
 
