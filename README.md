@@ -1,6 +1,6 @@
 # Financial risk management using Machine Learning on zSystems
 
-The following documentation will introduce the available Financial Risk Management API published on [IBM Bluemix] with Machine Learning running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank ([IBM Client Center Montpellier]) for the IBM Developer Journey Program.
+The following documentation will introduce the available Financial Risk Management API published on [IBM Bluemix] with Machine Learning running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank for the IBM Developer Journey Program.
 
 Please read this full page the first time to understand objectives, available APIs and the infrastructure used.
 
@@ -50,7 +50,6 @@ Feel free to use this API in order to make the best innovative application for t
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
-[IBM Client Center Montpellier]: https://www.ibm.com/ibm/clientcenter/montpellier/
 [Banking Digitalization using Hybrid Cloud with z Systems]:https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem
 
 [IBM Machine Learning for z/OS]: https://www.ibm.com/ms-en/marketplace/machine-learning-for-zos
