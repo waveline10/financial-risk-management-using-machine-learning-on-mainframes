@@ -49,7 +49,7 @@ Feel free to use this API in order to make the best innovative application for t
 
 # Example of banking application
 
-A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Loan Approval (Risk Management) API introduced before. 
+A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Financial Risk Management (scoring service as loan approval) API introduced before. 
 
 Go to the [Banking Digitalization using Hybrid Cloud with z Systems] documentation to start coding.
 
