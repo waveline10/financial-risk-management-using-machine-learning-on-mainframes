@@ -47,6 +47,13 @@ Once the model has been approved, it has been deployed in order to act as a scor
 
 Feel free to use this API in order to make the best innovative application for this developer Journey. Keep in mind that this API is included in a set of banking APIs. The general banking APIs documentation is available in the [Banking Digitalization using Hybrid Cloud with z Systems].
 
+# Example of banking application
+
+A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Loan Approval (Risk Management) API introduced before. 
+
+Go to the [Banking Digitalization using Hybrid Cloud with z Systems] documentation to start coding.
+
+
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
