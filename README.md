@@ -6,7 +6,7 @@ Please read this full page the first time to understand objectives, available AP
 
 To have more details details about MPLbank, please go to [Banking Digitalization using Hybrid Cloud with z Systems].
 
-# Overview of Machine Learning for z/OS
+# Overview of IBM Machine Learning for z/OS
 
 [IBM Machine Learning for z/OS] is an end-to-end enterprise machine learning platform that helps you create, train, and deploy machine learning models to extract value from your mission critical data on IBM z Systems, while keeping the data where it resides. Please watch [this video] to understand how IBM Machine Learning for z/OS helps Industries to resolve data value.
 
