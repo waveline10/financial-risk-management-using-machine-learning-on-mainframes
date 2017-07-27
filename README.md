@@ -37,7 +37,7 @@ for more information, go to the [IBM Machine Learning for z/OS Knowledge Center]
 
 The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. From a software Architecture point of view, IBM Machine Learning for z/OS has been set up in MPLbank on Mainframe. In Consequence, the previous schema has been implemented ans act as Financial Risk Management System.
 
-![alt text](images/architecture_mlz_mplbank.png "Architecture")
+![alt text](images/mlz_architecture_mplbank.png "Architecture")
 
 Following the next schema, a Predictive model was build from data using IBM Machine learning tools. Banking customer data was selected (his diploma, his age, his number of credit card, his income  and his number of car loans) to predict a score (probability for capacity of loan refunding) and an action (next customer's behaviour). Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
 
