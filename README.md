@@ -10,7 +10,7 @@ To have more details details about MPLbank, please go to [Banking Digitalization
 
 ### Part A: Understand What is IBM Machine Learning for z/OS
 
-### Part B: Understand the financial risk management API in MPLbank
+### Part B: Understand and discover the financial risk management API in MPLbank
 
 ### Part C: Make your own banking application
 
@@ -43,7 +43,7 @@ In summary, Machine Learning for z/OS provides the following functionality to he
 
 for more information, go to the [IBM Machine Learning for z/OS Knowledge Center].
 
-# Part B: Understand the financial risk management API in MPLbank
+# Part B: Understand and discover the financial risk management API in MPLbank
 
 The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. From a software Architecture point of view, IBM Machine Learning for z/OS has been set up in MPLbank on Mainframe. In Consequence, the previous schema has been implemented ans act as Financial Risk Management System.
 
