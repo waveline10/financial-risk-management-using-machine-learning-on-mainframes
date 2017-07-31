@@ -6,7 +6,7 @@ Please read this full page the first time to understand objectives, available AP
 
 To have more details details about MPLbank, please go to [Banking Digitalization using Hybrid Cloud with z Systems].
 
-# Overview of IBM Machine Learning for z/OS
+# Part I: Overview of IBM Machine Learning for z/OS
 
 [IBM Machine Learning for z/OS] is an end-to-end enterprise machine learning platform that helps you create, train, and deploy machine learning models to extract value from your mission critical data on IBM z Systems, while keeping the data where it resides. Please watch [this video] to understand how IBM Machine Learning for z/OS helps Industries to resolve data value.
 
@@ -33,7 +33,7 @@ In summary, Machine Learning for z/OS provides the following functionality to he
 
 for more information, go to the [IBM Machine Learning for z/OS Knowledge Center].
 
-# Financial risk management API in MPLbank
+# Part II: Financial risk management API in MPLbank
 
 The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. From a software Architecture point of view, IBM Machine Learning for z/OS has been set up in MPLbank on Mainframe. In Consequence, the previous schema has been implemented ans act as Financial Risk Management System.
 
@@ -45,13 +45,13 @@ Following the next schema, a Predictive model was build from data using IBM Mach
 
 Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. This API is available in the banking product from the [IBM Developer Portal] under the API path **/customers/loan/** .
 
-Feel free to use this API in order to make the best innovative application for this developer Journey. Keep in mind that this API is included in a set of banking APIs. The general banking APIs documentation is available in the [Banking Digitalization using Hybrid Cloud with z Systems].
+Discover, test and use this API from the general documentation the [Banking Digitalization using Hybrid Cloud with z Systems] (Part II).
 
-# Example of banking application
+# Part III: Example of banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Financial Risk Management (scoring service as loan approval) API introduced before. 
 
-Go to the [Banking Digitalization using Hybrid Cloud with z Systems] documentation to start coding.
+Go to the [Banking Digitalization using Hybrid Cloud with z Systems] (Part III).
 
 
 
