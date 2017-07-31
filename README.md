@@ -8,9 +8,9 @@ To have more details details about MPLbank, please go to [Banking Digitalization
 
 # Table of Contents
 
-- [Overview of IBM Machine Learning for z/OS](#overview-of-ibm-machine-learning-for-z-os)
-- [Financial risk management API in MPLbank](#financial-risk-management-api-in-mplbank)
-- [Make your own banking application](#make-your-own-banking-application)
+1.	[Overview of IBM Machine Learning for z/OS](#overview-of-ibm-machine-learning-for-z-os)
+2.	[Financial risk management API in MPLbank](#financial-risk-management-api-in-mplbank)
+3.	[Make your own banking application](#make-your-own-banking-application)
 
 # Overview of IBM Machine Learning for z/OS
 
@@ -51,13 +51,13 @@ Following the next schema, a Predictive model was build from data using IBM Mach
 
 Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. This API is available in the banking product from the [IBM Developer Portal] under the API path **/customers/loan/** .
 
-Discover, test and use this API from the general documentation the [Banking Digitalization using Hybrid Cloud with z Systems].
+Discover, test and use this API from the general documentation the [Banking Digitalization using Hybrid Cloud with z Systems] (part 3).
 
 # Make your own banking application
 
 A quick banking application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Financial Risk Management (scoring service as loan approval) API introduced before. 
 
-Go to the [Banking Digitalization using Hybrid Cloud with z Systems].
+Go to the [Banking Digitalization using Hybrid Cloud with z Systems] (part 4).
 
 
 
