@@ -16,7 +16,7 @@ Following the next schema, the predictive model was build from data using IBM Ma
 
 Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to an API developer Portal. In other words, this scoring service is callable trough API. 
 
-Objectives today are to discover, test and use this Financial Risk Management API using a sample financial application, then to enhance it.
+Objectives in this journey are to discover, test and use this Financial Risk Management API using a sample financial application, then to enhance it.
 
 ## Included Components
 
