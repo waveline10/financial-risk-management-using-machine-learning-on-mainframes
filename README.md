@@ -1,46 +1,34 @@
 # Financial risk management using Machine Learning on zSystems
 
-The following documentation will introduce the available Financial Risk Management API published on [IBM Bluemix] with Machine Learning running on the [IBM z Systems Mainframe] through a simulated retail bank called MPLbank.
-
-# Overview on IBM Machine Learning for IBM z/OS
-
-[IBM Machine Learning for z/OS] is an end-to-end enterprise machine learning platform that helps you create, train, and deploy machine learning models to extract value from your mission critical data on IBM z Systems, while keeping the data where it resides. Please watch [this video] to understand how IBM Machine Learning for z/OS helps Industries to resolve data value.
-
-Machine Learning for z/OS integrates some powerful IBM machine learning capabilities, including [IBM z/OS Platform for Apache Spark]. It simplifies and automates the machine learning workflow and enables collaboration on machine learning projects across disciplines, including data scientists, data engineers, business analysts, and application developers. By keeping the data on your z Systems, Machine Learning for z/OS helps significantly reduce the cost, security risk, and time to create, evaluate, and deploy machine learning models.
-
-As shown in the following figure, the z/OS Platform for Apache Spark cluster runs on z/OS and continuously ingests data into the Machine Learning for z/OS pipeline in real time. The application cluster runs on Linux or [Linux on z Systems] (Linux on z) and provides a web user interface for model training and management. Data scientists can use the user interface to select data sources for model building, training, and deployment. Application developers can see the list of saved models for deployment. Deployed models are used to make predictions. The models can be optimized as the data is pushed back into the machine learning workflow in a feedback loop.
-
-![alt text](images/mlz_architecture.png "Architecture")
-
-For more information, go to the [IBM Machine Learning for z/OS Knowledge Center].
-
-
+The following documentation will introduce the available Financial Risk Management API published on IBM Bluemix with Machine Learning on z/OS running on the IBM z Systems Mainframe through a simulated retail bank called MPLbank.
 
 # MPLbank
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank is contains a Financial Risk Management System based on Machine Learning. The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver Banking APIs, reachable from many simulated banking channels.
+This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank contains a Financial Risk Management System based on [IBM Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver an API, illustrating an online decision for loans approval.
 
 ![alt text](images/mlz_architecture_mplbank.png "Architecture")
 
-Following the next schema, a Predictive model was build from data using IBM Machine learning tools. Banking customer data was selected (his age, his number of credit card, his income  and his number of car loans) to predict a score (probability for capacity of loan refunding) and an action (next customer's behaviour). Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
+Following the next schema, the predictive model was build from data using IBM Machine learning tools. Banking customer data was selected (his age, his number of credit card, his income  and his number of car loans) to predict a score (probability for capacity of loan refunding) and an action (next customer's behaviour). Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
 
 ![alt text](images/mlz_workflow.png "workflow")
 
-Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. Objectives today are to discover, test and use this Financial Risk Management API.
+Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to an API developer Portal. In other words, this scoring service is callable trough API. 
+
+Objectives today are to discover, test and use this Financial Risk Management API using a sample financial application, and then to enhance it.
 
 ## Included Components
 
-Deployed IBM Mainframe Technologies:
-* [IBM Db2] ([IBM Db2 Knowledge Center])
+Deployed IBM Z Mainframe Technologies:
+* [IBM Db2]
 * [IBM Machine Learning for z/OS]
 
 Deployed IBM Bluemix Technologies:
-* [IBM API Connect] ([IBM API Connect Knowledge Center] & [IBM API Connect developerWorks])
+* [IBM API Connect]
 * [IBM Secure Gateway Service]
 
-An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
+An [IBM DataPower Gateway] has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
 # Steps
 
@@ -189,32 +177,19 @@ The purpose of this sample application is to understand how to code and use APIs
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
 
-[IBM Machine Learning for z/OS]: https://www.ibm.com/ms-en/marketplace/machine-learning-for-zos
-[IBM Machine Learning for z/OS Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9PF4
+[IBM Machine Learning for z/OS]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/Machine-Learning-z-os.md
 
 [IBM Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
-[IBM Db2 Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSEPEK/db2z_prodhome.html
 
 [IBM API Connect]: http://www-03.ibm.com/software/products/en/api-connect
-[IBM API Connect Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSMNED 
-[IBM API Connect developerWorks]: https://developer.ibm.com/apiconnect/
 
 [IBM Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
 
 [IBM DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
-[IBM DataPower Gateway Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9H2Y 
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 
-[this video]:https://www.youtube.com/watch?v=Xs-4sRZ133I
-
-[MPLBank Readme]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/MPLBank%20Readme.md
-
 [IBM Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
-
-[IBM z/OS Platform for Apache Spark]: https://www.ibm.com/us-en/marketplace/real-time-analysis-on-z-systems
-
-[Linux on z Systems]:https://www-03.ibm.com/systems/uk/z/os/linux/
 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
