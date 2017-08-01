@@ -41,7 +41,7 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 1.	[Download and review the Financial application code](#1-download-and-review-the-financial-application-code)
 2.	[Run the Financial application](#2-run-the-financial-application)
 
-### Part C: Extend the Financial Risk Management application
+### Part C: Extend the Financial Risk Management application in Bluemix
 
 1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
 2.	[Make cognitive application using Watson Services](#2-make-cognitive-application-using-watson-services)
@@ -174,7 +174,7 @@ A quick financial application has been developed in order to help you to start c
 
 ---
 
-# Part C: Extend the Financial Risk Management application
+# Part C: Extend the Financial Risk Management application in Bluemix
 
 The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas below
 
@@ -195,13 +195,16 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Select a region to deploy the project.
 	* Click **Create**.
 
-4. 	Wait for the creation
-siV
+4. 	Wait for the Node.js Runtime creation.
+
 5. 	Once created, explore this panel to be familiar with it.
 	![alt text](images/nodejsAppReady.png "Node.js Main Panel")
-	* ClickCreate ****
+	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
+	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-3.	Convert the simple Financial web application to the Node.js project using the Node.js on [Bluemix documentation].
+3.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
+
+4.	Code the financial Risk Management API into your Node.js Application.
 
 ## 2. Make cognitive application using Watson Services
 
