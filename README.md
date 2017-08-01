@@ -20,15 +20,13 @@ Objectives today are to discover, test and use this Financial Risk Management AP
 
 ## Included Components
 
-Deployed IBM Z Mainframe Technologies:
-* [Db2]
-* [Machine Learning for z/OS]
+The journey are accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture:
 
-Deployed IBM Bluemix Technologies:
+* [Db2 for z/OS]
+* [Machine Learning for z/OS]
 * [API Connect]
 * [Secure Gateway Service]
-
-An [DataPower Gateway] has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
+* [DataPower Gateway]
 
 # Steps
 
@@ -175,7 +173,7 @@ The purpose of this sample application is to understand how to code and use APIs
 
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
-[IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
+[IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 [Machine Learning for z/OS]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/Machine-Learning-z-os.md
 [Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
