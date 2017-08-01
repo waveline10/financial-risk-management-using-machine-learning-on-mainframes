@@ -204,7 +204,7 @@ The purpose of this sample application is to understand how to code and use APIs
  
 6.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
 
-7.	Code the financial Risk Management API into your Node.js Application using the API developer Portal Documentation.
+7.	Code the financial Risk Management API in your Node.js Application using the API developer Portal Documentation.
 
 ## 2. Make Cognitive application using Watson Services
 
@@ -224,6 +224,8 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Click **Connections**.
 	* Click **Docs**. You will learn how to use this service through APIs.
 	* Click **View Credentials**. You will have your API Credentials.
+	
+5. Code the Watson services in in your Node.js Application using the documentation and credentials.
 ---
 
 :thumbsup: Congratulations! You have successfully developed your first financial Cognitive application in Bluemix.
