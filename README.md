@@ -252,5 +252,3 @@ The purpose of this sample application is to understand how to code and use APIs
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
-
-[Node.js on Bluemix documentation]: https://console.bluemix.net/docs/runtimes/nodejs/getting-started.html#getting-started-with-node-js-on-bluemix
