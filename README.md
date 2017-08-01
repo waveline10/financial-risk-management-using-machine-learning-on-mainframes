@@ -193,6 +193,19 @@ The purpose of this sample application is to understand how to code and use APIs
 [IBM Machine Learning for z/OS]: https://www.ibm.com/ms-en/marketplace/machine-learning-for-zos
 [IBM Machine Learning for z/OS Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9PF4
 
+[IBM Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
+[IBM Db2 Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSEPEK/db2z_prodhome.html
+
+[IBM API Connect]: http://www-03.ibm.com/software/products/en/api-connect
+[IBM API Connect Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SSMNED 
+[IBM API Connect developerWorks]: https://developer.ibm.com/apiconnect/
+
+[IBM Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
+
+[IBM DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
+[IBM DataPower Gateway Knowledge Center]: https://www.ibm.com/support/knowledgecenter/en/SS9H2Y 
+
+
 [this video]:https://www.youtube.com/watch?v=Xs-4sRZ133I
 
 [MPLBank Readme]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/MPLBank%20Readme.md
