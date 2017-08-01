@@ -219,9 +219,11 @@ The purpose of this sample application is to understand how to code and use APIs
 	
 3. 	Wait for the Node.js Runtime creation. It will be prompted for restaging your Node.js Application.
 
-4.	Explore the service in your Node.js Application
+4.	Explore the Watson service in your Node.js Application
 	![alt text](images/watsonServicesAppReady.png "Watson services")
-	
+	* Click **Connections**.
+	* Click **Docs**. You will learn how to use this service through APIs.
+	* Click **View Credentials**. You will have your API Credentials.
 ---
 
 :thumbsup: Congratulations! You have successfully developed your first financial Cognitive application in Bluemix.
