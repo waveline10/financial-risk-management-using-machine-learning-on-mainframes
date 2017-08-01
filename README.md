@@ -217,3 +217,5 @@ The purpose of this sample application is to understand how to code and use APIs
 [Linux on z Systems]:https://www-03.ibm.com/systems/uk/z/os/linux/
 
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
+
+[IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
