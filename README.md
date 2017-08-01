@@ -1,6 +1,6 @@
 # Financial Risk Management using Machine Learning on z/OS
 
-The following documentation will introduce the available Financial Risk Management API published on IBM Bluemix with Machine Learning on z/OS running on the IBM Z Mainframe through a simulated retail bank called MPLbank.
+This journey accesses a Financial Risk Management API published on IBM Bluemix with Machine Learning on z/OS running on the IBM Z Mainframe through a simulated retail bank system called MPLbank.
 
 # MPLbank
 
