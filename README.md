@@ -44,7 +44,7 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 ### Part C: Extend the Financial Risk Management application in Bluemix
 
 1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
-2.	[Make cognitive application using Watson Services](#2-make-cognitive-application-using-watson-services)
+2.	[Make Cognitive application using Watson Services](#2-make-cognitive-application-using-watson-services)
 
 ---
 
@@ -206,11 +206,16 @@ The purpose of this sample application is to understand how to code and use APIs
 
 4.	Code the financial Risk Management API into your Node.js Application.
 
-## 2. Make cognitive application using Watson Services
+## 2. Make Cognitive application using Watson Services
 
 Integrate [IBM Watson Services] (APIs) from IBM Bluemix to build a banking cognitive application.
 ![alt text](images/watsonServices.png "Watson services")
 
+---
+
+:thumbsup: Congratulations! You have successfully developed your first financial Cognitive application in Bluemix.
+
+---
 
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
