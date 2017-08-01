@@ -98,9 +98,7 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
 	
-3. :thumbsup: **CONGRATULATIONS**. You just succeeded to subscribe to an API from the developer portal! 
-
-4.	Go to the Banking API page.
+3.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
 	* Click **Banking APIs**.
 	
@@ -109,17 +107,17 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
     * The middle panel displays detail information for the item you have selected. 
     * The right panel contains sample code in various programming language.
     
-5.	Discover the API  **Get /customers/loan/calculateScore** by reading its documentation.
+4.	Discover the API  **Get /customers/loan/calculateScore** by reading its documentation.
 	![alt text](images/financialriskAPI.png "Financial Risk Management API")
 	* Click **Get /customers/loan/calculateScore**.
     
-6.	Generate code for the API **Get /customers/loan/calculateScore** following the right panel of this operation.
+5.	Generate code for the API **Get /customers/loan/calculateScore** following the right panel of this operation.
 	![alt text](images/curlRequestFinancialAPI1.png "Test the API")
 	* Click a programming language that you want work with.
     
    	Code example in the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
   
-7. 	Test the API **Get /customers/loan/calculateScore** depending on your programming language and Input parameters:
+6. 	Test the API **Get /customers/loan/calculateScore** depending on your programming language and Input parameters:
  
  	
 	| Parameters            | Value   | example |
