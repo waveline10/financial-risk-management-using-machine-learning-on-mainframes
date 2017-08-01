@@ -33,7 +33,8 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 ### Part A: Discover and test the Financial Risk Management API
 
 1.	[Start with IBM Developer API Portal](#1-start-with-ibm-developer-api-portal)
-2.	[Work with The Financial Risk Management APIs](#2-work-with-the-financial-risk-management-api)
+2.	[Subscribe to the Financial Risk Management APIs](#2-subscribe-to-the-financial-risk-management-api)
+3.	[Work with The Financial Risk Management APIs](#3-work-with-the-financial-risk-management-api)
 
 ### Part B: Make you own Financial Risk Management application
 
@@ -69,7 +70,7 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 	Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 	![alt text](images/keyApplication.png "API Keys")
 
-## 2. Work with the Financial Risk Management API 
+## 2. Subscribe to the Financial Risk Management API 
 
 1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
 	![alt text](images/bankingProduct.png "Choose the default plan")
@@ -83,7 +84,9 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 	![alt text](images/APISubscription2.png "Banking Product")
 	* Select the App that you have just created before.
 	* Click **Subscribe**.
-	
+
+## 3. Work with the Financial Risk Management API
+
 3.	Go to the Banking API page.
 	![alt text](images/bankingAPI.png "Banking APIs")
 	* Click **Banking APIs**.
