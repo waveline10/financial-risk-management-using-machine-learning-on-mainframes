@@ -1,26 +1,26 @@
 # Financial Risk Management using Machine Learning on z/OS
 
-This journey accesses a Financial Risk Management API published on IBM Bluemix with Machine Learning on z/OS running on the IBM Z Mainframe through a simulated retail bank system called MPLbank.
+This journey accesses a Financial Risk Management API published on IBM Bluemix with Machine Learning on z/OS running on the IBM Z Mainframe through a simulated retail bank system called MPLbank. 
 
 # MPLbank
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank contains a Financial Risk Management System based on [Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver an API, illustrating an online decision for loans approval.
+This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank contains a Financial Risk Management System based on [Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to their personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver an API, illustrating an online decision for loans approval.
 
 ![alt text](images/mlz_architecture_mplbank.png "Architecture")
 
-Following the next schema, the predictive model was build from data using IBM Machine learning tools. Banking customer data was selected (his age, his number of credit card, his income  and his number of car loans) to predict a score (probability for capacity of loan refunding) and an action (next customer's behaviour). Then it was trained with 80% of historical data and was evaluated with 20% of historical data. In this way, It ensures that the model is able to learn from fresh data.
+Following the below schema, the predictive model was built from data using IBM Machine learning tools. Banking customer data was selected (age, number of credit card, income and number of car loans) to predict a score (probability for capacity of loan refunding) and an action (next customer's behaviour). It was then trained using machine learning with 80% of historical data and evaluated with 20% of the historical data. This ensures the model is able to learn from fresh data.
 
 ![alt text](images/mlz_workflow.png "workflow")
 
-Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to an API developer Portal. In other words, this scoring service is callable trough API. 
+Once the model was approved, it was deployed to act as a scoring service. On top of this service, an API was created and published to an API developer Portal and is now callable through API. 
 
-Objectives in this journey are to discover, test and use this Financial Risk Management API using a sample financial application, then to enhance it using IBM Bluemix.
+This journey will discover, test and use this Financial Risk Management API using a sample financial application, then enhance it using IBM Bluemix.
 
 ## Included Components
 
-The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture:
+The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture:
 
 * [Db2 for z/OS]
 * [Machine Learning for z/OS]
@@ -36,7 +36,7 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 2.	[Subscribe to the Financial Risk Management API](#2-subscribe-to-the-financial-risk-management-api)
 3.	[Work with the Financial Risk Management API](#3-work-with-the-financial-risk-management-api)
 
-### Part B: Make you own Financial Risk Management application
+### Part B: Make your own Financial Risk Management application
 
 1.	[Download and review the Financial application code](#1-download-and-review-the-financial-application-code)
 2.	[Run the Financial application](#2-run-the-financial-application)
