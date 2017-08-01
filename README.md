@@ -33,12 +33,18 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 ### Part A: Discover and test the Financial Risk Management API
 
 1.	[Start with IBM Developer API Portal](#1-start-with-ibm-developer-api-portal)
-2.	[Subscribe to the Financial Risk Management APIs](#2-subscribe-to-the-financial-risk-management-api)
-3.	[Work with The Financial Risk Management APIs](#3-work-with-the-financial-risk-management-api)
+2.	[Subscribe to the Financial Risk Management API](#2-subscribe-to-the-financial-risk-management-api)
+3.	[Work with the Financial Risk Management API](#3-work-with-the-financial-risk-management-api)
 
 ### Part B: Make you own Financial Risk Management application
 
+1.	[Download and review the Financial application code](#1-download-and-review-the-financial-application-code)
+2.	[Run the Financial application](#2-run-the-financial-application)
+
 ### Part C: Extend the Financial Risk Management application
+
+1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
+2.	[Make cognitive application using Watson Services](#2-make-cognitive-application-using-watson-services)
 
 ---
 
@@ -140,6 +146,8 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 
 A quick financial application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
 
+## 1. Download and review the Financial application code
+
 1.	Download and import the project *financialApplication* located in this Github repository into you preferred IDE like Eclipse.
 
 2.	Review the *index.html* file in order to understand how the program works.
@@ -148,6 +156,8 @@ A quick financial application has been developed in order to help you to start c
 	![alt text](images/financialCodeJS.png "JS Code")
 	
 	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
+	
+## 2. Run the Financial application
 	
 4.	Open the *index.html* in your favorite web browser. The application will automatically run.
 	![alt text](images/financial_application.png "Financial Application Sample")
@@ -166,12 +176,16 @@ A quick financial application has been developed in order to help you to start c
 
 # Part C: Extend the Financial Risk Management application
 
-The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas: 
+The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas below
 
-* Convert this sample project to a Node JS project on IBM Bluemix. [Sign up or log in to IBM Bluemix].
+## 1. Start with Node.js on Bluemix
+
+Convert this sample project to a Node JS project on IBM Bluemix. [Sign up or log in to IBM Bluemix].
 	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
-* Integrate [IBM Watson Services] (APIs) from IBM Bluemix to build a banking cognitive application.
+## 2. Make cognitive application using Watson Services
+
+Integrate [IBM Watson Services] (APIs) from IBM Bluemix to build a banking cognitive application.
 ![alt text](images/watsonServices.png "Watson services")
 
 
