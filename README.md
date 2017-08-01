@@ -164,7 +164,7 @@ A quick financial application has been developed in order to help you to start c
 
 ---
 
-# Part C: Extend the banking application
+# Part C: Extend the Financial Risk Management application
 
 The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas: 
 
