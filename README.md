@@ -241,7 +241,7 @@ The purpose of this sample application is to understand how to code and use APIs
 
 [API Connect]: http://www-03.ibm.com/software/products/en/api-connect
 
-[Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
+[Secure Gateway Service]: https://www.ibm.com/blogs/bluemix/2017/07/secure-faster-ever-secure-gateway-1-8-0/
 
 [DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
 
