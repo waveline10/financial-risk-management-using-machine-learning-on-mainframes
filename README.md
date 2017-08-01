@@ -190,10 +190,17 @@ The purpose of this sample application is to understand how to code and use APIs
 
 3.	Configure your Node.js project for free (30 days).
 	![alt text](images/nodejsBluemixConfiguration.png "Node.js on Bluemix Documentation")
-	* Give an **App name**.
+	* Give an App name.
 	* Select a domain.
 	* Select a region to deploy the project.
+	* Click **Create**.
 
+4. 	Wait for the creation
+siV
+5. 	Once created, explore this panel to be familiar with it.
+	![alt text](images/nodejsAppReady.png "Node.js Main Panel")
+	* ClickCreate ****
+ 
 3.	Convert the simple Financial web application to the Node.js project using the Node.js on [Bluemix documentation].
 
 ## 2. Make cognitive application using Watson Services
