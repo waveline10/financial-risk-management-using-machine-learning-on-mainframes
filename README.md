@@ -21,14 +21,14 @@ Objectives today are to discover, test and use this Financial Risk Management AP
 ## Included Components
 
 Deployed IBM Z Mainframe Technologies:
-* [IBM Db2]
-* [IBM Machine Learning for z/OS]
+* [Db2]
+* [Machine Learning for z/OS]
 
 Deployed IBM Bluemix Technologies:
-* [IBM API Connect]
-* [IBM Secure Gateway Service]
+* [API Connect]
+* [Secure Gateway Service]
 
-An [IBM DataPower Gateway] has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
+An [DataPower Gateway] has been setup in front of MPLbank for security reasons. It also acts as a Secure Gateway Client and is connected to the Secure Gateway Service in Bluemix.
 
 # Steps
 
@@ -177,15 +177,11 @@ The purpose of this sample application is to understand how to code and use APIs
 [IBM Bluemix]: https://www.ibm.com/us-en/marketplace/cloud-platform
 [IBM z Systems Mainframe]: https://www-03.ibm.com/systems/z/
 
-[IBM Machine Learning for z/OS]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/Machine-Learning-z-os.md
-
-[IBM Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
-
-[IBM API Connect]: http://www-03.ibm.com/software/products/en/api-connect
-
-[IBM Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
-
-[IBM DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
+[Machine Learning for z/OS]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/Machine-Learning-z-os.md
+[Db2]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
+[API Connect]: http://www-03.ibm.com/software/products/en/api-connect
+[Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
+[DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
 
