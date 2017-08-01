@@ -202,15 +202,26 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-3.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
+6.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
 
-4.	Code the financial Risk Management API into your Node.js Application.
+7.	Code the financial Risk Management API into your Node.js Application using the API developer Portal Documentation.
 
 ## 2. Make Cognitive application using Watson Services
 
-Integrate [IBM Watson Services] (APIs) from IBM Bluemix to build a banking cognitive application.
-![alt text](images/watsonServices.png "Watson services")
+1.	Integrate [IBM Watson Services] (APIs) from the Bluemix catalog. 
+	![alt text](images/watsonServices.png "Watson services")
+	* Choose one of them.
 
+2.	Create the service
+	![alt text](images/watsonServicesCreate.png "Watson services Creation")
+	* Connect to your existing Node.js Project.
+	* Click **Create**.
+	
+3. 	Wait for the Node.js Runtime creation. It will be prompted for restaging your Node.js Application.
+
+4.	Explore the service in your Node.js Application
+	![alt text](images/watsonServicesAppReady.png "Watson services")
+	
 ---
 
 :thumbsup: Congratulations! You have successfully developed your first financial Cognitive application in Bluemix.
