@@ -20,7 +20,7 @@ Objectives today are to discover, test and use this Financial Risk Management AP
 
 ## Included Components
 
-The journey are accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture:
+The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe] architecture:
 
 * [Db2 for z/OS]
 * [Machine Learning for z/OS]
@@ -176,9 +176,13 @@ The purpose of this sample application is to understand how to code and use APIs
 [IBM Z Mainframe]: https://www-03.ibm.com/systems/z/
 
 [Machine Learning for z/OS]: https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems/blob/master/Machine-Learning-z-os.md
-[[Db2 for z/OS]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
+
+[Db2 for z/OS]: https://www.ibm.com/analytics/us/en/technology/db2/?lnk=STW_US_SHP_A4_TL&lnk2=learn_DB2
+
 [API Connect]: http://www-03.ibm.com/software/products/en/api-connect
+
 [Secure Gateway Service]: https://console.bluemix.net/docs/services/SecureGateway/secure_gateway.html
+
 [DataPower Gateway]: http://www-03.ibm.com/software/products/en/datapower-gateway
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
