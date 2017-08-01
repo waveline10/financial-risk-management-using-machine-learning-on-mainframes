@@ -18,6 +18,8 @@ For more information, go to the [IBM Machine Learning for z/OS Knowledge Center]
 
 # MPLbank
 
+## Architecture
+
 This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank is contains a Financial Risk Management System based on Machine Learning. The IBM MPLbank team made a Financial risk management API illustrating an online decision for loans approval based on Machine Learning for z/OS. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to his personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver Banking APIs, reachable from many simulated banking channels.
 
 ![alt text](images/mlz_architecture_mplbank.png "Architecture")
