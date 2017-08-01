@@ -185,10 +185,16 @@ The purpose of this sample application is to understand how to code and use APIs
 	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
 
-2.	go to the catalog and select **SDK for Node.js**
+2.	Go to the catalog and select **SDK for Node.js**.
 	![alt text](images/nodejsbluemix.png "Node.js on Bluemix")
-		
-3.	Convert this sample project to a Node JS project on Bluemix. .
+
+3.	Configure your Node.js project for free (30 days).
+	![alt text](images/nodejsbluemixConfiguration.png "Node.js on Bluemix")
+	* Give an **App name**.
+	* Select a domain.
+	* Select a region to deploy the project.
+
+3.	Convert the simple Financial web application to the Node.js project using the Node.js on [Bluemix documentation].
 
 ## 2. Make cognitive application using Watson Services
 
@@ -216,3 +222,5 @@ Integrate [IBM Watson Services] (APIs) from IBM Bluemix to build a banking cogni
 [Sign up or log in to IBM Bluemix]: https://console.bluemix.net/registration/?
 
 [IBM Watson Services]: https://www.ibm.com/cloud-computing/bluemix/watson
+
+[Node.js on Bluemix documentation]: https://console.bluemix.net/docs/runtimes/nodejs/getting-started.html#getting-started-with-node-js-on-bluemix
