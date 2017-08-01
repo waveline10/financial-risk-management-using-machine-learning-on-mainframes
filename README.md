@@ -41,7 +41,7 @@ The journey is accomplished by using an Hybrid [IBM Bluemix] / [IBM Z Mainframe]
 1.	[Download and review the Financial application code](#1-download-and-review-the-financial-application-code)
 2.	[Run the Financial application](#2-run-the-financial-application)
 
-### Part C: Extend the Financial Risk Management application in Bluemix
+### Part C: Extend the Financial Risk Management application
 
 1. 	[Start with Node.js on Bluemix](#1-start-with-node-js-on-bluemix)
 2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
@@ -174,7 +174,7 @@ A quick financial application has been developed in order to help you to start c
 
 ---
 
-# Part C: Extend the Financial Risk Management application in Bluemix
+# Part C: Extend the Financial Risk Management application
 
 The purpose of this sample application is to understand how to code and use APIs. If you want more about APIs, Hybrid Architecture and Bluemix, Please find ideas below
 
