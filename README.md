@@ -53,7 +53,6 @@ An [IBM DataPower Gateway] ([IBM DataPower Gateway Knowledge Center]) has been s
 
 ---
 
-
 # Part A: Discover and test the Financial Risk Management API
 
 ## 1. Start with IBM Developer API Portal 
