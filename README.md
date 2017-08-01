@@ -28,7 +28,7 @@ Following the next schema, a Predictive model was build from data using IBM Mach
 
 ![alt text](images/mlz_workflow.png "workflow")
 
-Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. This API is available in the banking product from the [IBM Developer Portal] under the API path **GET /customers/loan/** .
+Once the model has been approved, it has been deployed in order to act as a scoring service. On top of this service, an API was created and published to the API developer Portal. In other words, this scoring service is callable trough API. Objectives today are to discover, test and use this Financial Risk Management API.
 
 ## Included Components
 
