@@ -189,7 +189,7 @@ The purpose of this sample application is to understand how to code and use APIs
 	![alt text](images/nodejsbluemix.png "Node.js on Bluemix")
 
 3.	Configure your Node.js project for free (30 days).
-	![alt text](images/nodejsbluemixConfiguration.png "Node.js on Bluemix")
+	![alt text](images/nodejsBluemixConfiguration.png "Node.js on Bluemix Documentation")
 	* Give an **App name**.
 	* Select a domain.
 	* Select a region to deploy the project.
