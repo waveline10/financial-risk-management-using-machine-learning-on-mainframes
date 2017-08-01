@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Developer Journey 2017</title>
+    <!-- jQuery first, then Bootstrap JS. -->
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/financialAPI.js"></script>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-static-top navbar-light" style="background-color: #FFFFFF;">
+      <a class="navbar-brand" href="#">{/Developer Journey}</a>
+    </nav>
+
+    <div class="jumbotron" style="background-color:#563D7C">
+      <div class="container">
+        <h1 class="display-4" style="color: white;">Financial Risk Management Application</h1>
+      </div>
+    </div>
+
+      
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+         
+        <div class="card text-xs-center">
+          <h3 class="card-header">Loan Approval</h3>
+          <div class="card-block">
+            <p class="card-text"><input class="form-control" id="inputAge" placeholder="Age"></p>
+            <p class="card-text"><input class="form-control" id="inputIncome" placeholder="Income"></p>
+            <p class="card-text"><input class="form-control" id="inputNumberOfCard" placeholder="Number of credit card"></p>
+            <p class="card-text"><input class="form-control" id="inputNumberOfCarLoan" placeholder="Number of car loan"></p>
+            <button id="btnLoanApproval" type="button" class="btn btn-success">Go</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <br><br><br>
+    <div class="container">
+      <p id="resultHeader" class="card-text"><b>Result :</b></p>
+      <p id="result" class="card-text"></p>
+
+      <hr>
+      <footer>
+        <p>&copy; IBM Developer Journey 2017</p>
+      </footer>
+   
+    </div>
+
+  </body>
+</html>
