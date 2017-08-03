@@ -217,7 +217,7 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Remove the *public/stylesheets** folder to delete the default CSS style.
 	* Copy the *css* folder from the financial application to in the *public* folder.
 	* Replace the *index.html* from the financial application to the *public* folder.
-	![alt text](images/editNodeJSProjectFinancial.png.png "Edit the Node.js project")
+	![alt text](images/editNodeJSProjectFinancial.png "Edit the Node.js project")
 	
 8.	Re-Deploy the new code to the Node.js Runtime in Bluemix using the **cf push** command you learned in step 6.
 
