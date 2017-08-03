@@ -204,9 +204,27 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Click **Visit App URL**. The default Node.js Project (Hello World) has been provided.
 	* Explore each menu on the left panel to understand the Runtime, connections, logs, etc.
  
-6.	Follow the **Getting Started** to learn how to edit, pull and push code from your IDE to your Node.js Runtime in Bluemix.
+6.	Follow the **Getting Started** page to learn how to edit, pull and push the provided Hello World application from your computer to your Node.js Runtime in Bluemix.
+	![alt text](images/gettingStartedBluemix.png "Node.js on Bluemix Documentation")
+	* Read **Prerequisites**.
+	* Read **1. Clone the sample app**.
+	* Read **2. Run the app locally**.
+	* Read **3. Prepare the app for deployment**.
+	* Read **4. Deploy the app**.
 
-7.	Code the financial Risk Management API in your Node.js Application using the API developer Portal Documentation.
+7.	Edit the cloned Hello World sample application in your laptop to integrate the banking application files:
+	* Copy the *js* folder from the financial application to in the *public* folder.
+	* Remove the *public/stylesheets** folder to delete the default CSS style.
+	* Copy the *css* folder from the financial application to in the *public* folder.
+	* Replace the *index.html* from the financial application to the *public* folder.
+	![alt text](images/editNodeJSProjectFinancial.png.png "Edit the Node.js project")
+	
+8.	Re-Deploy the new code to the Node.js Runtime in Bluemix using the **cf push** command you learned in step 6.
+
+9.	Re-Click **Visit App URL** on Bluemix.
+	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
+
+The Financial Risk Management application is now hosted in Bluemix and use the Banking APIs.
 
 ## 2. Make a Cognitive application using Watson Services
 
