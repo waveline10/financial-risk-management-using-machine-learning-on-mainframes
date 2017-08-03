@@ -149,10 +149,10 @@ A quick financial application has been developed in order to help you to start c
 ## 1. Download and review the Financial application code
 
 1.	Download and import the project *financialApplication* located in **this Github repository** into you preferred IDE like Eclipse.
-	![alt text](images/bankingClone.png "Download the application")
+	![alt text](images/financialClone.png "Download the application")
 	* Either Click on **Download ZIP**
 	* Or use Git Command : 
-	>	git clone https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem.git
+	>	git clone https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems.git
 
 	
 2.	Review the *index.html* file in order to understand how the program works.
