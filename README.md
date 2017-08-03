@@ -160,7 +160,7 @@ A quick financial application has been developed in order to help you to start c
 ## 2. Run the Financial application
 	
 4.	Open the *index.html* in your favorite web browser. The application will automatically run.
-	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser to refresh this web application. 
+	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser (or Ctrl + F5 shortcut key) to reload this web application. 
 	
 	![alt text](images/financial_application.png "Financial Application Sample")
 
