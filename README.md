@@ -155,11 +155,13 @@ A quick financial application has been developed in order to help you to start c
 3.	Review the *financialAPI.js* file in order to understand how the program works.
 	![alt text](images/financialCodeJS.png "JS Code")
 	
-	* Replace replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours.
+	* Replace **IBM_CLIENT_ID** & **IBM_CLIENT_SECRET** variables by yours and save the file.
 	
 ## 2. Run the Financial application
 	
 4.	Open the *index.html* in your favorite web browser. The application will automatically run.
+	>	NOTE: There is no need to compile JS/HTML/CSS from any IDE. Just edit those files in the IDE and refresh the *index.html** in the web browser to refresh this web application. 
+	
 	![alt text](images/financial_application.png "Financial Application Sample")
 
 5.	Fill input values with previous values example then Click on the button **Go**. 
