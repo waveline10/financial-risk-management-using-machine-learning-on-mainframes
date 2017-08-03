@@ -153,6 +153,7 @@ A quick financial application has been developed in order to help you to start c
 	* Either Click on **Download ZIP**
 	* Or use Git Command : 
 	>	git clone https://github.com/IBM/Banking-digitalization-using-hybrid-cloud-with-zSystem.git
+
 	
 2.	Review the *index.html* file in order to understand how the program works.
 
