@@ -78,7 +78,7 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 
 ## 2. Subscribe to the Financial Risk Management API 
 
-1.	Before working with banking APIs, you need to subscribe first. Display the list of available API products.
+1.	Before working with the Financial Risk Management APIs, you need to subscribe first. Display the list of available API products.
 	![alt text](images/bankingProduct.png "Choose the default plan")
 	* Click **API Products** from the top menu.
 	* Click **Banking Product** in the list.
@@ -144,7 +144,7 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 
 # Part B: Make your own Financial Risk Management application
 
-A quick financial application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses banking APIs introduced before. 
+A quick financial application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Financial Risk Management API introduced before. 
 
 ## 1. Download and review the Financial application code
 
@@ -212,7 +212,7 @@ The purpose of this sample application is to understand how to code and use APIs
 	* Read **3. Prepare the app for deployment**.
 	* Read **4. Deploy the app**.
 
-7.	Edit the cloned Hello World sample application in your laptop to integrate the banking application files:
+7.	Edit the cloned Hello World sample application in your laptop to integrate the Financial application files:
 	* Copy the *js* folder from the financial application to in the *public* folder.
 	* Remove the *public/stylesheets** folder to delete the default CSS style.
 	* Copy the *css* folder from the financial application to in the *public* folder.
@@ -224,7 +224,7 @@ The purpose of this sample application is to understand how to code and use APIs
 9.	Re-Click **Visit App URL** on Bluemix.
 	![alt text](images/nodejsAppRedeploy.png "Node.js Main Panel")
 
-The Financial Risk Management application is now hosted in Bluemix and use the Banking APIs.
+The Financial Risk Management application is now hosted in Bluemix and use the Finance Risk Management APIs.
 
 ## 2. Make a Cognitive application using Watson Services
 
