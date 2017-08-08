@@ -6,7 +6,7 @@ This journey accesses a Financial Risk Management API published on IBM Bluemix w
 
 ## Architecture
 
-This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank integrates a Financial Risk Management System based on [Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to their personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver an API, illustrating an online decision for loans approval.
+This journey accesses a fictitious retail banking system called MPLbank. Similar to real retail bank systems, MPLbank integrates a Financial Risk Management System based on [Machine Learning for z/OS]. The initial predictive model was designed to deliver a score representing the probability of the capacity of loan refund for a banking customer according to their personal data. On top of these components, an API layer hosted in IBM Bluemix has been set up to deliver a financial Risk Management API, illustrating an online decision for loans approval.
 
 ![alt text](images/mlz_architecture_mplbank.png "Architecture")
 
@@ -44,7 +44,7 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 ### Part C: Extend the Financial Risk Management application
 
 1. 	[Start with Node.js on Bluemix](#1-start-with-nodejs-on-bluemix)
-2.	[Make a Cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
+2.	[Make a cognitive application using Watson Services](#2-make-a-cognitive-application-using-watson-services)
 
 ---
 
@@ -58,15 +58,15 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 3. Create an account if you have not done that already.
 	![alt text](images/createAccount.png "Create Account")
    * Click **Create an Account**.
-   * Provide all required information. Be sure to use your IBM ID (email) for this account.
+   * Provide all required information. Be sure to use your IBM ID (email address) for this account.
    * Click **Submit**.
 
   
-   An account activation email will be sent to your registred IBM ID email. Click on the link in this email to activate your account.
+   An account activation email will be sent to your registered IBM ID email. Click on the link in this email to activate your account.
 
 4. Login to your account.
 
-5. Create a new application (workspace for this project).
+5. Create a new application.
 	![alt text](images/createApplication.png "Create Application")
 	* Click **Apps** from the menu.
 	* Click **Create new App**.
@@ -102,17 +102,17 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
     * The middle panel displays detail information for the item you have selected. 
     * The right panel contains sample code in various programming language.
     
-2.	Discover the API  **Get /customers/loan/calculateScore** by reading its documentation.
+2.	Discover the operation  **Get /customers/loan/calculateScore** by reading its documentation.
 	![alt text](images/financialriskAPI.png "Financial Risk Management API")
 	* Click **Get /customers/loan/calculateScore**.
     
-3.	Generate code for the API **Get /customers/loan/calculateScore** following the right panel of this operation.
+3.	Generate code for the operation **Get /customers/loan/calculateScore** following the right panel of this operation.
 	![alt text](images/curlRequestFinancialAPI1.png "Test the API")
 	* Click a programming language that you want to work with.
     
    	Code example in the selected programming language and an example output of a successful response are displayed. You can copy the code and use it in your own application.
   
-4. 	Test the API **Get /customers/loan/calculateScore** in your programming language with Input parameters:
+4. 	Test the operation **Get /customers/loan/calculateScore** in your programming language with Input parameters:
  
  	
 	| Parameters            | Value   | example |
@@ -144,13 +144,13 @@ The journey is accomplished by using a Hybrid [IBM Bluemix] / [IBM Z Mainframe] 
 
 # Part B: Make your own Financial Risk Management application
 
-A quick financial application has been developed in order to help you to start coding. This web application (HTML/CSS/javascript) uses the Financial Risk Management API introduced before. 
+A quick financial application has been developed in order to help you to start coding. This web application (HTML/CSS/Javascript) uses the Financial Risk Management API introduced before. 
 
 ## 1. Download and review the Financial application code
 
 1.	Download and import the project *financialApplication* located in **this Github repository** into you preferred IDE like Eclipse.
 	![alt text](images/financialClone.png "Download the application")
-	* Either Click on **Download ZIP**
+	* Either click on **Download ZIP**
 	* Or use Git Command : 
 	>	git clone https://github.com/IBM/Financial-risk-management-using-machine-learning-on-zSystems.git
 
@@ -187,7 +187,7 @@ A quick financial application has been developed in order to help you to start c
 
 1.	[Sign up or log into IBM Bluemix]
 	
-	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node Js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
+	> NOTE: Use IBM Bluemix to create, test and deploy a quick application. Choose among JAVA Liberty Profile, Node.js servers, Ruby, Python, etc... This platform also provides DevOps tools for a continuous delivery (Git, automatic deployment) and a lot of innovative features & services.
 
 
 2.	Go to the catalog and select **SDK for Node.js**.
@@ -229,7 +229,7 @@ A quick financial application has been developed in order to help you to start c
 
 The Financial Risk Management application is now hosted in Bluemix and use the Finance Risk Management APIs.
 
-## 2. Make a Cognitive application using Watson Services
+## 2. Make a cognitive application using Watson Services
 
 1.	Integrate [IBM Watson Services] (APIs) from the Bluemix catalog. 
 	![alt text](images/watsonServices.png "Watson services")
@@ -251,7 +251,7 @@ The Financial Risk Management application is now hosted in Bluemix and use the F
 5. Develop the chosen Watson service in your Node.js Application using the documentation and credentials.
 ---
 
-:thumbsup: Congratulations! You have successfully developed your first financial Cognitive application in Bluemix.
+:thumbsup: Congratulations! You have successfully developed your first financial cognitive application in Bluemix.
 
 ---
 
